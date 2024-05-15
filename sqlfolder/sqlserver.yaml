@@ -1,2 +1,3 @@
 sqlserverconfiguration:
   - name: mssqlserver
+  - name: mssqlserver2
