@@ -1,3 +1,5 @@
 name="database-rg"
 location="West Europe"
 mysqlname="mssqlserver"
+version="12.0"
+minimum_tls_version="1.2"
