@@ -1,3 +1,4 @@
+
 resource "azurerm_resource_group" "databaserg" {
   name     = var.name
   location = var.location
