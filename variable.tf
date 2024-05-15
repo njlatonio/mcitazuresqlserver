@@ -25,7 +25,7 @@ variable "location"{
 variable "mysqlname"{
   type=string
 }
-variable "version"{
+variable "resourceversion"{
   type=string
 }
 variable "minimum_tls_version"{
