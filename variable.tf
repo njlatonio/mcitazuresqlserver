@@ -16,3 +16,9 @@ variable "administrator_login"{
 variable "administrator_login_password"{
   type=string
 }
+variable "name"{
+  type=string
+}
+variable "location"{
+  type=string
+}
