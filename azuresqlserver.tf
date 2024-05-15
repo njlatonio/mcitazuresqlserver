@@ -1,4 +1,3 @@
-
 resource "azurerm_resource_group" "databaserg" {
   name     = var.name
   location = var.location
@@ -22,3 +21,5 @@ resource "azurerm_mssql_server" "azuresqlserver" {
     environment = var.environment
   }
 }
+
+# Below created via yaml
