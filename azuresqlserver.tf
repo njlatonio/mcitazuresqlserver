@@ -13,11 +13,11 @@ resource "azurerm_mssql_server" "azuresqlserver" {
   minimum_tls_version          = var.minimum_tls_version
 
   azuread_administrator {
-    login_username = "AzureAD Admin"
-    object_id      = "00000000-0000-0000-0000-000000000000"
+    login_username = var.login_username
+    object_id      = var.object_id
   }
 
   tags = {
-    environment = "production"
+    environment = var.environment
   }
 }
