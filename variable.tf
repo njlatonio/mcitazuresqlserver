@@ -25,3 +25,9 @@ variable "location"{
 variable "mysqlname"{
   type=string
 }
+variable "version"{
+  type=string
+}
+variable "minimum_tls_version"{
+  type=string
+}
