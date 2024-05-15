@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "databaserg" {
-  name     = "database-rg"
-  location = "West Europe"
+  name     = var.name
+  location = var.location
 }
 
 resource "azurerm_mssql_server" "azuresqlserver" {
