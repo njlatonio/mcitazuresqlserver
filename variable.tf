@@ -22,3 +22,6 @@ variable "name"{
 variable "location"{
   type=string
 }
+variable "mysqlname"{
+  type=string
+}
