@@ -35,7 +35,7 @@ locals{
 }
 
 resource "azurerm_mssql_server" "azuresqlserver_yaml" {
-  for each                     = {for value in local.sqlserverlist: "${value.name}"=>value}
+  for_each                     = {for value in local.sqlserverlist: "${value.name}"=>value}
   name                         = each.value.name
   resource_group_name          = azurerm_resource_group.databaserg.name
   location                     = azurerm_resource_group.databaserg.location
