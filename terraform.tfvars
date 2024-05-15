@@ -1,7 +1,7 @@
 name="database-rg"
 location="West Europe"
 mysqlname="mssqlserver"
-version="12.0"
+resourceversion="12.0"
 minimum_tls_version="1.2"
 login_username="AzureAD Admin"
 object_id="00000000-0000-0000-0000-000000000000"
