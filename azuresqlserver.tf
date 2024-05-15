@@ -7,7 +7,7 @@ resource "azurerm_mssql_server" "azuresqlserver" {
   name                         = var.mysqlname
   resource_group_name          = azurerm_resource_group.databaserg.name
   location                     = azurerm_resource_group.databaserg.location
-  version                      = var.version
+  version                      = var.resourceversion
   administrator_login          = var.administrator_login
   administrator_login_password = var.administrator_login_password
   minimum_tls_version          = var.minimum_tls_version
