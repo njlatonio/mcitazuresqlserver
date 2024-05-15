@@ -31,3 +31,12 @@ variable "version"{
 variable "minimum_tls_version"{
   type=string
 }
+variable "login_username"{
+  type=string
+}
+variable "object_id"{
+  type=string
+}
+variable "environment"{
+  type=string
+}
